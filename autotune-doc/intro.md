@@ -1,24 +1,21 @@
-# New Scenario Template (Your Title Here)
+# Kruize Autotune Demo
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Demo of how to use kruize Autotune.
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+Autotune is an Autonomous Performance Tuning Tool for Kubernetes. Autotune accepts a user provided "slo" goal to optimize application performance. It uses Prometheus to identify "layers" of an application that it is monitoring and matches tunables from those layers to the user provided slo. It then runs experiments with the help of a hyperparameter optimization framework to arrive at the most optimal values for the identified set of tunables to get a better result for the user provided slo.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- Install Kruize Autotune
+- Deploy a benchmark
+- How to look for Autotune objects and layers available.
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
+Understanding on kubernetes.
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
 
 ## Table of Contents
 
